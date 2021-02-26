@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSPI_JW_VoiceEnabledDevices", "HSPI_JW_VoiceEnabledDevices.csproj", "{B3866D69-BDF1-4737-A337-D46BC984CA2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3866D69-BDF1-4737-A337-D46BC984CA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3866D69-BDF1-4737-A337-D46BC984CA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3866D69-BDF1-4737-A337-D46BC984CA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3866D69-BDF1-4737-A337-D46BC984CA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81AD042B-6B87-45F3-9452-458B9918B282}
+	EndGlobalSection
+EndGlobal
