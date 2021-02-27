@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace HSPI_JW_VoiceEnabledDevices
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
+	internal static class Program
+	{
+		private static HSPI _plugin;
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Connecting to server...");
+			_plugin = new HSPI();
+			_plugin.Connect(args);
+		}
+	}
 }
